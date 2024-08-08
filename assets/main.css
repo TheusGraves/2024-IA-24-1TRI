@@ -1,0 +1,135 @@
+body {
+    background-image: url(https://static.videezy.com/system/resources/thumbnails/000/054/023/original/200922-LoopStars.jpg);
+    color: white; 
+}
+
+
+nav.profile + main {
+  margin-top: 0px;
+}
+
+nav.profile + main p {
+  margin-bottom: -15px;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 50px;
+  }
+  
+  .centerText {
+    text-align: center;
+}
+
+nav.profile1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+div.profile2 {
+  border: 1px solid white;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  border-radius: 5%;
+}
+
+div.profile3 {
+  border: 1px solid white;
+  flex-grow: 2px; 
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  text-align: center;
+  border-radius: 5%;
+}
+  
+div.profile2 img {
+    border: 1px solid rgb(78, 68, 68);
+    width: 85%;
+    margin-top: -50px;
+    border-radius: 5%;
+}
+  
+  main {
+    border: 2px solid burlywood;
+    width: 500px;
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+ main img {
+    width: 600px;
+    margin-top: 30px;
+  }
+
+  h1, h3, h6 {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+  h2 {
+    font-style: italic;
+    margin-bottom: 10px;
+
+  }
+
+  h5 {
+    margin-top: -20px;
+  }
+
+p {
+    margin-top: 15px;
+}
+
+.Hrs {
+  color: rgb(103, 225, 255);
+}
+
+.LoL {
+  color: rgb(0, 64, 255);
+}
+
+.Omori {
+  color: rgb(116, 116, 116);
+}
+
+.Undertale {
+  color: rgb(212, 0, 0);
+}
+
+.tcal {
+  color: antiquewhite ;
+}
+
+
+.imj {
+  border: 2px solid grey;
+  border-radius: 2%;
+  margin-top: -10px;
+}
+
